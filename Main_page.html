@@ -1,0 +1,61 @@
+<DOCTYPE html>
+<html lang="de-DE">
+
+<!-- 
+    Website by Tobias Daake
+-->
+
+<head>
+    <meta name="keywords" content="Rollenspieletag, JCK, Jesus Christus Kirche, D&D"/>
+    <meta name="description" content="Anmeldung und Koordination des Rollenspieletags der Musical-Jugend der JCK">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href=C:\Users\Karin\Documents\Tobi\Web_Pagesd\RollenspielTag\stylesheet.css>
+</head>
+
+<body>
+    <form id="form" method="POST" action="submit.php">
+        <div class="form-control">
+            <label for="name" id="lable-name">
+                Name
+            </label>
+
+
+            <input type="text" id="name" placeholder="Enter your name">
+        </div>
+        
+        <div class="form-control">
+            <label for="email" id="label-email">
+                Email
+            </label>
+
+            <!-- Input Type Email-->
+            <input type="email" id="email" 
+                   placeholder="Enter your email" />
+        </div>
+
+        <div class="form-control">
+            <label for="comment">
+                Any comments or suggestions
+            </label>
+
+            <!-- multi-line text input control -->
+            <textarea name="comment" id="comment" 
+                      placeholder="Enter your comment here">
+            </textarea>
+        </div>
+
+        
+        <!-- Multi-line Text Input Control -->
+        <button type="submit" value="submit">
+            Submit
+        </button>
+
+    </form>
+
+    <script>
+    </script>
+    </body>
+</html>
